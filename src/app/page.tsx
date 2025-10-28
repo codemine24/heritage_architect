@@ -1,15 +1,7 @@
 "use client";
 
-import { Typography, Container, Stack } from "@mui/material";
+import { HeroSection } from "@/components/home/hero-section";
 
 export default function Home() {
-  return (
-    <Container sx={{ py: 10, textAlign: "center" }}>
-      <Stack spacing={3}>
-        <Typography variant="h4" color="primary">
-          Welcome to Next.js + Material UI 🚀
-        </Typography>
-      </Stack>
-    </Container>
-  );
+  return <HeroSection />;
 }
