@@ -1,5 +1,3 @@
-"use client";
-
 import { Box, Container, Grid } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 import BusinessIcon from "@mui/icons-material/Business";
@@ -9,19 +7,19 @@ import SectionHeader from "../section-header";
 
 const services = [
   {
-    icon: <HomeIcon sx={{ fontSize: 50, color: "#8B4A4A" }} />,
+    icon: <HomeIcon sx={{ fontSize: 50, color: "primary.main" }} />,
     title: "Residential Design",
     description:
       "We'll create a personalized living space that reflects your taste and lifestyle.",
   },
   {
-    icon: <BusinessIcon sx={{ fontSize: 50, color: "#8B4A4A" }} />,
+    icon: <BusinessIcon sx={{ fontSize: 50, color: "primary.main" }} />,
     title: "Commercial Spaces",
     description:
       "Designing functional and inspiring workplaces that boost productivity and creativity.",
   },
   {
-    icon: <LightbulbIcon sx={{ fontSize: 50, color: "#8B4A4A" }} />,
+    icon: <LightbulbIcon sx={{ fontSize: 50, color: "primary.main" }} />,
     title: "Architectural Consultancy",
     description:
       "Our experts will bring your vision to life with innovative design solutions.",
