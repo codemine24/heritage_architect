@@ -17,7 +17,7 @@ export const HeroSection = () => {
       <Carousel autoplay pauseOnHover>
         <CarouselContent>
           <CarouselItem>
-            <Box>
+            <Box sx={{ position: "relative" }}>
               <OptimizeImage
                 src="/images/slide-2.webp"
                 alt="Hero Carousel"
@@ -81,7 +81,7 @@ export const HeroSection = () => {
 
           {/* Item 2 */}
           <CarouselItem>
-            <Box>
+            <Box sx={{ position: "relative" }}>
               <OptimizeImage
                 src="/images/slide-1.jpg"
                 alt="Hero Carousel"
@@ -116,12 +116,11 @@ export const HeroSection = () => {
                       lineHeight: "1.2",
                     }}
                   >
-                    Transform Your Space Into a Masterpiece
+                    Interior Design Mastery
                   </Typography>
                   <Typography sx={{ color: "#fff", fontSize: "1rem", mt: 2 }}>
-                    Blending traditional craftsmanship with contemporary design
-                    innovation. Blending traditional craftsmanship with
-                    contemporary design innovation
+                    Creating bespoke interiors that reflect your unique
+                    lifestyle and personality
                   </Typography>
                   <Button
                     variant="contained"

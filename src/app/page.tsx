@@ -1,7 +1,13 @@
 "use client";
 
 import { HeroSection } from "@/components/home/hero-section";
+import ServicesSection from "@/components/home/services-section";
 
 export default function Home() {
-  return <HeroSection />;
+  return (
+    <>
+      <HeroSection />
+      <ServicesSection />
+    </>
+  );
 }
